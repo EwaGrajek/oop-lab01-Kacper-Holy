@@ -10,6 +10,12 @@ public class Main {
         System.out.println(second.getMake() + " " + second.getModel()
             + " | mileage=" + second.getMileage());
         // TODO: pokaz odrzucona operacje i niezmieniony stan obiektu.
+
+        first.drive(-50);
+        System.out.println(first.getMileage());
+
+        first.renameModel(" ");
+        System.out.println(first.getModel());
     }
 }
 
